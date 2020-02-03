@@ -6,3 +6,42 @@
   box-sizing: border-box;
   font-size: inherit;
 }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box1 {
+  grid-column: 1/5;
+  height: 540px;
+  background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 -777px;
+}
+
+.box2 {
+  height: 300px;
+  background-image: url(https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
+  background-repeat: no-repeat;
+}
+
+.box3 {
+  height: 300px;
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
+  background-repeat: no-repeat;
+}
+
+.box4 {
+  height: 300px;
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg);
+  background-repeat: no-repeat;
+}
+
+.box5 {
+  height: 300px;
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
+  background-repeat: no-repeat;
+}
