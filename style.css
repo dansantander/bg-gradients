@@ -33,7 +33,7 @@ ul {
 nav {
   width: 980px;
   margin: 80px auto 40px auto;
-  background-image: linear-gradient(#686868, #8a8a8a 1%, #5c5c5c 1%, #7c7c7c 50%, #707070 50%, #696969 100%);
+  background-image: linear-gradient(#686868, #8a8a8a 1%, #5c5c5c 1%, #808080 50%, #707070 50%, #696969 100%);
   border-radius: 5px;
 }
 
@@ -41,6 +41,7 @@ nav {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .fa-apple {
@@ -166,6 +167,14 @@ footer {
   margin-left: 5px;
   border-right: 1px solid #bdbdbd;
   height: 12px;
+}
+
+.ft-container a:hover {
+  text-decoration: underline;
+}
+
+#last {
+  border: none;
 }
 
 .nav-buttons li:hover {
