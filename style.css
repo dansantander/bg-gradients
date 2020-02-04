@@ -43,19 +43,49 @@ nav {
   flex-direction: row;
 }
 
+.fa-apple {
+  padding-top: 0.2rem;
+  font-size: 1.5rem;
+}
+
 .nav-buttons li {
   border-right: 0.2px solid rgba(255, 255, 255, 0.925);
   width: 100%;
   overflow: hidden;
   height: 35px;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 }
 
 .nav-buttons a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 0.7rem;
+}
+
+.search-container {
+  margin-top: 6px;
+  margin-left: 7px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 22px;
+  width: 90px;
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgba(43, 43, 43, 0.925);
+  color: white;
+  font-size: 0.8rem;
+}
+
+.searchbar {
+  width: 70%;
+  background: none;
+  border: none;
+}
+
+.fa-search {
+  padding-left: 6px;
 }
 
 .paragraphs {
@@ -123,7 +153,6 @@ footer {
   height: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
 }
 
 .ft-container ul {
@@ -133,8 +162,10 @@ footer {
 }
 
 .ft-container li {
-  margin-right: 10px;
-  border-right: 1px solid #8a8a8a;
+  padding-right: 5px;
+  margin-left: 5px;
+  border-right: 1px solid #bdbdbd;
+  height: 12px;
 }
 
 .nav-buttons li:hover {
