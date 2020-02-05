@@ -9,7 +9,7 @@
 
 .container {
   width: 1440px;
-  height: 90vh;
+  height: 840px;
   margin: 0 auto;
   display: grid;
   grid-template-rows: repeat(6, 1fr);
@@ -138,7 +138,7 @@ nav {
 
 footer {
   padding-top: 1.5rem;
-  width: 54%;
+  width: 985px;
   margin: 0 auto;
   font-size: 0.65rem;
   color: rgb(158, 158, 158);
@@ -151,30 +151,29 @@ footer {
 }
 
 .ft-container {
-  height: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.ft-container ul {
-  list-style-type: none;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
-.ft-container li {
-  padding-right: 5px;
-  margin-left: 5px;
-  border-right: 1px solid #bdbdbd;
-  height: 12px;
+.top-left {
+  padding-top: 1.3px;
 }
 
-.ft-container a:hover {
-  text-decoration: underline;
+.bottom-left {
+  padding-top: 1rem;
+}
+
+.bottom-left a {
+  text-decoration: none;
+  color: rgb(39, 175, 243);
 }
 
 #last {
-  border: none;
+  vertical-align: middle;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 .nav-buttons li:hover {
